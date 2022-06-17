@@ -1,0 +1,69 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-17T11:29:51.014Z",
+        "line": 3,
+        "name": "Counting beer cans",
+        "description": "",
+        "id": "beer-cans;counting-beer-cans",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1023000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have \u003copening balance\u003e beer cans",
+            "match": {
+              "location": "com.examples.Step.iHaveOpeningBalanceBeerCans()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have drunk \u003cprocessed\u003e beer cans",
+            "match": {
+              "location": "com.examples.Step.iHaveDrunkProcessedBeerCans()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I go to my fridge",
+            "match": {
+              "location": "com.examples.Step.iGoToMyFridge()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should have \u003cin stock\u003e beer cans",
+            "match": {
+              "location": "com.examples.Step.iShouldHaveInStockBeerCans()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Beer cans",
+    "description": "",
+    "id": "beer-cans",
+    "keyword": "Feature",
+    "uri": "classpath:features/cucumber/coba.feature",
+    "tags": []
+  }
+]
